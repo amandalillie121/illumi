@@ -1,0 +1,267 @@
+/* font-family: 'Playfair Display', serif; */
+
+/* font-family: 'Raleway', sans-serif; */
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAV BAR */
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: #2B2549;
+    min-height: 75px;
+
+}
+
+.navList {
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navList .getTheApp {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.titleText,
+.about {
+    color: white;
+}
+
+.titleText {
+    font-size: 35px;
+    margin-left: 20px;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 1px 1px 10px #DEDEDE;
+}
+
+.about { 
+    justify-self: flex-start;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    margin-right: 20px;
+}
+
+/* MAIN SECTION */
+
+.mainSection {
+    min-height: 600px;
+}
+
+/* HERO */
+
+.hero {
+    background-image: url("/assets/hero_image.jpg");
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.heroCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.heroLogo {
+    margin-left: 70px;
+    height: 300px;
+    width: 300px;
+}
+
+.heroTitle {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 60px;
+    margin: 5px 10px;
+    text-shadow: 1px 1px 10px #DEDEDE;
+}
+
+.heroBody {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    text-shadow: 1px 1px 10px #DEDEDE;  
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero .getTheApp {
+    height: 60px;
+}
+
+/* MIND BODY SOUL */
+
+.mindBodySoul {
+    background-color: #F1EEEF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.mindBodySoulTitle {
+    margin-left: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.mindBodySoul .subTitle {
+    margin-left: 50px;
+    margin-top: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mindBodySoul .cardWrapper {
+    display: flex;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.mindBodySoul .mindBodySoulCard {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mindBodySoul .cardImg {
+    height: 200px;
+    width: 200px;
+    background-color: #2B2549;
+    border-radius: 25px;
+}
+
+.mindBodySoul .cardTitle {
+    font-size: 25px;
+    margin: 20px 0px 0px;
+}
+
+.mindBodySoul .cardText {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+/* USER QUOTE  */
+.userQuote {
+    background-image: url("/assets/starBackground.jpg");
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.userQuoteText {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 100px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 25px;
+    padding: 30px;
+    font-size: 20px;
+    background-color: #442F5F;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* GOALS GUIDE JOURNAL */
+
+
+.goalsGuidanceJournal {
+    background-color: #F1EEEF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.goalsGuidanceJournalTitle {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.goalsGuidanceJournal .subTitle {
+    margin-left: 50px;
+    margin-top: 0px;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 50px;
+}
+
+.goalsGuidanceJournal .cardWrapper {
+    display: flex;
+    align-items: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.goalsGuidanceJournal .goalsGuidanceJournalCard {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goalsGuidanceJournal .cardImg {
+    height: 200px;
+    width: 200px;
+    background-color: #2B2549;
+    border-radius: 25px;
+}
+
+.goalsGuidanceJournal .cardTitle {
+    font-size: 25px;
+    margin: 20px 0px 0px;
+}
+
+.goalsGuidanceJournal .cardText {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: #2B2549;
+    min-height: 75px;
+
+}
+
+.footerLogo {
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.footer .getTheApp {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.footerList {
+    color: white;
+}
+
+
