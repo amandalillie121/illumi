@@ -61,7 +61,7 @@ body {
 /* HERO */
 
 .hero {
-    background-image: url("/assets/hero_image.jpg");
+    background-image: url("./assets/hero_image.jpg");
     background-size: cover;
 
     display: flex;
@@ -159,7 +159,7 @@ body {
 
 /* USER QUOTE  */
 .userQuote {
-    background-image: url("/assets/starBackground.jpg");
+    background-image: url("./assets/starBackground.jpg");
     background-size: cover;
     min-height: 300px;
     display: flex;
